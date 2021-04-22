@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+.Mpart3 img {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+	background: #707070;
+	border-radius: 6px;
+}
+.Mpart3 {
+    background: #9464f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 4.652778rem;
+}
+.has-text-align-center {
+    text-align: center;
+}
+main.content ul {
+    margin-left: 60px;
+    margin-bottom: 20px;
+	margin-right: 80px;
+}
+.entry-content ul {
+    margin-bottom: 30px;
+    padding-left: 40px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.col-xs-12 {
+    width: 100%;
+	float: left;
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.infoquotes h2 {
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 30px;
+	margin-top: 20px;
+	font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.infoquotes .quote {
+    padding: 80px 40px 0;
+}
+aside{
+	display: block;
+}
+.infoquotes {
+    background: #707070;
+    border-radius: 6px;
+    color: #fff;
+    padding: 52px 0;
+    position: relative;
+    margin-bottom: 60px;
+}
+.text-center {
+    text-align: center;
+}
+.infoquotes .ico_quote {
+    color: #ff5c03;
+    font-family: Georgia;
+    font-size: 80px;
+    height: 22px;
+    line-height: 0;
+    overflow: hidden;
+}
+.infoquotes .txt_quote {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 21px 0;
+    margin-top: -30px;
+}
+.infoquotes .author {
+    color: #ff5c03;
+    font-size: 16px;
+}
+blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
+    margin-bottom: 0;
+}
+p {
+    margin: 0 0 10px;
+}
+.footer {
+    background: #262729;
+    color: #999;
+}
+.footer_bottom {
+    background: #222325;
+    padding: 10px;
+    color: #999;
+}
+.footer_bottom_copy {
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+    min-width: 1200px;
+}
+.text-center {
+    text-align: center !important;
+}

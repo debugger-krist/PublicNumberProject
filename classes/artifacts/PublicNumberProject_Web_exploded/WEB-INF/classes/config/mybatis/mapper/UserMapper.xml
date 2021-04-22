@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.muc.pnp.dao.UserDao">
+    <!-- 根据用户名查找用户 -->
+    <select id="findByUsername" parameterType="String" resultType="User">
+		select * from user where username = #{username}
+	</select>
+    <!-- 修改用户密码 -->
+    <update id="editPassword" parameterType="User">
+		update user set password = #{password} where id = #{id}
+	</update>
+
+    <!-- 用户注册 -->
+    <insert id="userRegister" parameterType="User">
+		insert into user (username,password,Email) values (#{username},#{password},#{Email})
+	</insert>
+    <!-- 根据关键字搜索-->
+    <select id="getInfo" parameterType="String" resultType="Info">
+		select * from info where name like concat('%',#{username},'%');
+	</select>
+
+    <!-- 获取log表中的数据-->
+    <select id="getLogData" resultType="Log">
+		select * from log
+</select>
+</mapper>
